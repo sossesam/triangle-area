@@ -13,8 +13,14 @@
 
     <form action=" {% url 'result' %} ">
         {% csrf_token %}
-        <label for="name">name</label>
+        <label for="user_name">name</label>
         <input type="text" name="user_name">
+        <label for="side1">side 1</label>
+        <input type="text" name="side1">
+        <label for="side2">side2</label>
+        <input type="text" name="side2">
+        <label for="side3">side3</label>
+        <input type="text" name="side3">
         <input type="submit" value="submit">
     </form>
 </body>
